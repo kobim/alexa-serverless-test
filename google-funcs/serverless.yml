@@ -3,7 +3,7 @@ service: alexa-sls-test-gcf
 provider:
   name: google
   runtime: nodejs
-  project: my-test-project
+  project: kb-tests
   credentials: ~/.gcloud/key.json
 
 plugins:
@@ -12,8 +12,6 @@ plugins:
 package:
   exclude:
     - node_modules/**
-    - .gitignore
-    - .git/**
   include:
     - ../sharedApp.js
 

@@ -1,0 +1,12 @@
+{
+  "name": "alexa-sls-test-azure-functions",
+  "version": "1.0.0",
+  "description": "Alexa Skill using alexa-app package and deploying with Serverless framework (Azure)",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^4.2.0"
+  },
+  "devDependencies": {
+    "serverless-azure-functions": "*"
+  }
+}
