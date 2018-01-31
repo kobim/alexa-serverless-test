@@ -1,0 +1,10 @@
+{
+  "name": "alexa-sls-test-google-funcs",
+  "version": "1.0.0",
+  "description": "Alexa Skill using alexa-app package and deploying with Serverless framework (Google Functions)",
+  "license": "MIT",
+  "dependencies": {
+    "serverless-google-cloudfunctions": "^1.1.0",
+    "alexa-app": "^4.2.0"
+  }
+}

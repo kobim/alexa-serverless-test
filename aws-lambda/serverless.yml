@@ -1,0 +1,18 @@
+service: alexa-sls-test-aws-lambda
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+  region: us-west-2
+  versionFunctions: false
+
+package:
+  include:
+    - ../sharedApp.js
+
+functions:
+  alexa:
+    handler: handler.alexa
+    events:
+      - alexaSkill
