@@ -8,9 +8,8 @@ plugins:
   - serverless-azure-functions
 
 package:
-  exclude:
-    - node_modules/**
-  
+  include:
+    - ../sharedApp.js
 
 functions:
   alexa:

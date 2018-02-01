@@ -7,6 +7,6 @@
     "alexa-app": "^4.2.0"
   },
   "devDependencies": {
-    "serverless-azure-functions": "*"
+    "serverless-azure-functions": "serverless/serverless-azure-functions#master"
   }
 }
